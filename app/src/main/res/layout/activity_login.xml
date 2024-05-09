@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#AAAFFF"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill all fields"
+        android:id="@+id/tv" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Enter your email"
+            android:textSize="15dp"
+            android:background="#e7faf8"
+            android:textColor="#fc0723"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tv1" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:id="@+id/etEmail" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Enter your password"
+            android:textSize="15dp"
+            android:background="#e7faf8"
+            android:textColor="#fc0723"
+            android:textStyle="bold"
+
+            android:id="@+id/tv2" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:id="@+id/etPass" />
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Login"
+        android:text="Login"
+        android:id="@+id/btnGolog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Registration"
+        android:text="Registration"
+        android:id="@+id/btnGoreg" />
+
+</LinearLayout>

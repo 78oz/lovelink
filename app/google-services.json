@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "688357409698",
+    "firebase_url": "https://ozproject-2e780-default-rtdb.firebaseio.com",
+    "project_id": "ozproject-2e780",
+    "storage_bucket": "ozproject-2e780.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688357409698:android:3b2e9cdf2e56c725cbe8fb",
+        "android_client_info": {
+          "package_name": "com.example.ozapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPk9YjV5njZJ_AEQ1VS0zp4O1KFCMhpHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688357409698:android:83cecefb803aa5decbe8fb",
+        "android_client_info": {
+          "package_name": "com.example.ozproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPk9YjV5njZJ_AEQ1VS0zp4O1KFCMhpHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
